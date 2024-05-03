@@ -79,7 +79,7 @@ const SignupForm = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Email</FormLabel>
-                <FormControl>
+                <FormControl> 
                   <Input type="email" className="shad-input" {...field} />
                 </FormControl>
                 <FormMessage />
